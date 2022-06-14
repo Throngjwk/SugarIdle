@@ -120,13 +120,13 @@ var init = () => {
                 ui.createFrame({
                     heightRequest: 309,
                     cornerRadius: 0,
-                    content: ui.createLabel({text: "v1.0.0:",
+                    content: ui.createLabel({text: "v1.0.0: \nRelease!",
                         padding: Thickness(12, 2, 12, 2),
                         fontSize: 25
                     })
                 }),
                 ui.createLabel({
-                    text: "\\/|()[][] \nRelease!",
+                    text: "This Changelog this other days.",
                     horizontalTextAlignment: TextAlignment.CENTER,
                     fontAttributes: FontAttributes.BOLD,
                     fontSize: 18,
